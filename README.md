@@ -90,27 +90,34 @@
 //% color="#AA278D" iconWidth=50 iconHeight=40
 namespace module {
 &ensp;&ensp;&ensp;&ensp;...
-}```
+}
+```
 创建一个TypeScript命名空间，所有的图形块都写在里面，还可以设置模块的整体颜色以及icon的尺寸，对于图形风格设置应该包含在`//%`描述符中。所有的风格设置不是必须的，如果没有设置这些参数，系统将会按照默认的风格展示，`//%`所包含的内容可以写在一行或多行。
 * color: 设置图形快颜色，RGB24位真彩。
 * iconWidth: 设置icon显示宽度。
 * iconHeight: 设置icon显示高度，icon要求svg格式，图片应该放在`_images`文件夹根目录。
 
 ### 图形块
-<table><tr><td bgcolor=#F7F7F7>//% block="set the line width to [WIDTH] pixels" blockType="command"
+```blocks
+//% block="set the line width to [WIDTH] pixels" blockType="command"
 export function setBrightness(parameter: any, block: any) {
 &ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个方形的图形块,`//%`所包含的内容可以写在一行或多行。
+}
+```
+定义一个方形的图形块,`//%`所包含的内容可以写在一行或多行。
 * block: 一个图形块的完整描述，也是这个图形块的默认显示语言，`[]`所包含的内容为输入框的名称。
 * blockType: 设置外观形状，可选参数有`hat,command,boolean,reporter`
 
 ### 输入框
 ** 文本类型 **
-<table><tr><td bgcolor=#F7F7F7>//% block="print [STR]" blockType="command"
+```blocks
+//% block="print [STR]" blockType="command"
 //% STR.shadow="string" STR.defl=hello
 export function print(parameter: any, block: any) {
 &ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个文本类型的输入框。
+}
+```
+定义一个文本类型的输入框。
 * shadow: 输入框类型。
 * defl: 默认参数。
 
@@ -124,42 +131,54 @@ export function setWirelessChannel(parameter: any) {
 * defl: 默认参数。
 
 ** 范围 **
-<table><tr><td bgcolor=#F7F7F7>//% block="set the line width to [WIDTH] pixels" blockType="command"
+```blocks
+//% block="set the line width to [WIDTH] pixels" blockType="command"
 //% WIDTH.shadow="range" WIDTH.params.min=1 WIDTH.params.max=128 WIDTH.defl=1
 export function setLineWidth(parameter: any, block: any) {
 &ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个范围限制的输入框。
+}
+```
+定义一个范围限制的输入框。
 * shadow: 输入框类型。
 * defl: 默认参数。
 * params.min: 最小值。
 * params.max: 最大值。
 
 ** 布尔类型 **
-<table><tr><td bgcolor=#F7F7F7>//% block="not [Flag]" blockType="boolean"
+```blocks
+//% block="not [Flag]" blockType="boolean"
 //% Flag.shadow="boolean"
 export function notTrue(parameter: any) {
 &ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个波尔类型的输入框。
+}
+```
+定义一个波尔类型的输入框。
 * shadow: 输入框类型。
 
 ** 普通下拉菜单 **
-<table><tr><td bgcolor=#F7F7F7>//% block="button [BUTTON] is pressed?" blockType="boolean"
+```blocks
+//% block="button [BUTTON] is pressed?" blockType="boolean"
 //% Flag.shadow="boolean"
 //% BUTTON.shadow="dropdown" BUTTON.options="BTN" BUTTON.defl="BTN.A"
 export function buttonIsPressed(parameter: any, block: any) {
 &ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个下拉菜单。
+}
+```
+定义一个下拉菜单。
 * shadow: 输入框类型。
 * defl: 默认参数。
 * options: 下拉菜单选项，在ts文件中定义一个枚举，如果需要区分主控，则需要将引脚定义放在`_menus`文件夹的根目录。
 
 ** 可输入下拉菜单 **
-<table><tr><td bgcolor=#F7F7F7>//% block="show [STR] on the [LINE] line" blockType="command"
+```blocks
+//% block="show [STR] on the [LINE] line" blockType="command"
 //% STR.shadow="string" STR.defl=hello
 //% LINE.shadow="dropdownRound" LINE.options="LINE" LINE.defl="LINE.1"
 export function println(parameter: any, block: any) {
 &ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个下拉菜单，并且可拖入图形块
+}
+```
+定义一个下拉菜单，并且可拖入图形块
 * shadow: 输入框类型。
 * defl: 默认参数。
 * options: 下拉菜单选项，在ts文件中定义一个枚举，如果需要区分主控，则需要将引脚定义放在`_menus`文件夹的根目录。
