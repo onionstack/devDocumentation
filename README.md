@@ -89,7 +89,7 @@
 ```blocks
 //% color="#AA278D" iconWidth=50 iconHeight=40
 namespace module {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 创建一个TypeScript命名空间，所有的图形块都写在里面，还可以设置模块的整体颜色以及icon的尺寸，对于图形风格设置应该包含在`//%`描述符中。所有的风格设置不是必须的，如果没有设置这些参数，系统将会按照默认的风格展示，`//%`所包含的内容可以写在一行或多行。
