@@ -3,29 +3,30 @@
 
 ## 文件结构
 ```
-└─newExtensions        // 项目名称
-    │  config.json     // 配置文件
+└─newExtensions                    // 项目名称
+    │  config.json                 // 配置文件
     │  LICENSE.TXT
     │  README.md
     │
-    └─arduinoC          // arduino模式根目录
-        │  main.ts      // 图形块定义以及风格描述
+    └─arduinoC                     // arduino模式根目录
+        │  main.ts                 // 图形块定义以及风格描述
         │
-        ├─libraries     // 库文件
+        ├─libraries                // 库文件
         │  └─oled12864
         │          oled12864.cpp
         │          oled12864.h
         │          qrcode.c
         │          qrcode.h
         │
-        ├─_images       // 图片文件
+        ├─_images                  // 图片文件
         │      featured.png
         │      icon.svg
         │
-        ├─_locales      // 翻译文件
+        ├─_locales                 // 翻译文件
         │      zh-cn.json
+        │      en.json
         │
-        └─_menus        // 下拉菜单参数
+        └─_menus                   // 下拉菜单参数
                 leonardo.json
                 uno.json
                 nano.json
@@ -80,8 +81,8 @@
 * dir: 指定语言环境
 * version: 版本信息
 * board: 指定支持的主控
-* main: 指定定义图形块的文件名称
-* files: 包含所有需要的文件路径，以便加载
+* main: 描述文件的文件名
+* files: 包含所需文件的路径，以便加载
 
 
 ## 定义图形块
