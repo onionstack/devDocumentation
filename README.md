@@ -188,6 +188,8 @@ export function println(parameter: any, block: any) {
 * options: 下拉菜单选项，在ts文件中定义一个枚举，如果需要区分主控，则需要将引脚定义放在`_menus`文件夹的根目录。
 
 ## 描述规则
+描述命令必须包含在`//%`描述符中。
+
 | 命令  | 含义 | 可选参数 |
 | :--- | :---: | :--- |
 | color | 设置颜色 | 24位真彩色 |
@@ -200,4 +202,4 @@ export function println(parameter: any, block: any) {
 | params.min | 用于范围输入类型，设置最小值 | 自定义 |
 | params.max | 用于范围输入类型，设置最大值 | 自定义 |
 | options | 指定下拉菜单内容 | 自定义 |
-描述命令必须包含在`//%`描述符中。
+
