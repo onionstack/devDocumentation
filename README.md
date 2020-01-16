@@ -109,7 +109,7 @@ export function setBrightness(parameter: any, block: any) {
 * blockType: 设置外观形状，可选参数有`hat,command,boolean,reporter`
 
 ### 输入框
-** 文本类型 **
+**文本类型**
 ```blocks
 //% block="print [STR]" blockType="command"
 //% STR.shadow="string" STR.defl=hello
@@ -121,7 +121,7 @@ export function print(parameter: any, block: any) {
 * shadow: 输入框类型。
 * defl: 默认参数。
 
-** 数字类型 **
+**数字类型**
 ```blocks
 //% block="set wireless channel [NUM]" blockType="command"
 //% NUM.shadow="number" NUM.defl=7
@@ -133,7 +133,7 @@ export function setWirelessChannel(parameter: any) {
 * shadow: 输入框类型。
 * defl: 默认参数。
 
-** 范围 **
+**范围**
 ```blocks
 //% block="set the line width to [WIDTH] pixels" blockType="command"
 //% WIDTH.shadow="range" WIDTH.params.min=1 WIDTH.params.max=128 WIDTH.defl=1
@@ -147,7 +147,7 @@ export function setLineWidth(parameter: any, block: any) {
 * params.min: 最小值。
 * params.max: 最大值。
 
-** 布尔类型 **
+**布尔类型**
 ```blocks
 //% block="not [Flag]" blockType="boolean"
 //% Flag.shadow="boolean"
@@ -158,7 +158,7 @@ export function notTrue(parameter: any) {
 定义一个波尔类型的输入框。
 * shadow: 输入框类型。
 
-** 普通下拉菜单 **
+**普通下拉菜单**
 ```blocks
 //% block="button [BUTTON] is pressed?" blockType="boolean"
 //% Flag.shadow="boolean"
@@ -172,7 +172,7 @@ export function buttonIsPressed(parameter: any, block: any) {
 * defl: 默认参数。
 * options: 下拉菜单选项，在ts文件中定义一个枚举，如果需要区分主控，则需要将引脚定义放在`_menus`文件夹的根目录。
 
-** 可输入下拉菜单 **
+**可输入下拉菜单**
 ```blocks
 //% block="show [STR] on the [LINE] line" blockType="command"
 //% STR.shadow="string" STR.defl=hello
