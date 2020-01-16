@@ -101,7 +101,7 @@ namespace module {
 ```blocks
 //% block="set the line width to [WIDTH] pixels" blockType="command"
 export function setBrightness(parameter: any, block: any) {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 定义一个方形的图形块,`//%`所包含的内容可以写在一行或多行。
@@ -114,7 +114,7 @@ export function setBrightness(parameter: any, block: any) {
 //% block="print [STR]" blockType="command"
 //% STR.shadow="string" STR.defl=hello
 export function print(parameter: any, block: any) {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 定义一个文本类型的输入框。
@@ -122,11 +122,14 @@ export function print(parameter: any, block: any) {
 * defl: 默认参数。
 
 ** 数字类型 **
-<table><tr><td bgcolor=#F7F7F7>//% block="set wireless channel [NUM]" blockType="command"
+```blocks
+//% block="set wireless channel [NUM]" blockType="command"
 //% NUM.shadow="number" NUM.defl=7
 export function setWirelessChannel(parameter: any) {
-&ensp;&ensp;&ensp;&ensp;...
-}</td></tr></table>定义一个数字类型的输入框。
+    ...
+}
+```
+定义一个数字类型的输入框。
 * shadow: 输入框类型。
 * defl: 默认参数。
 
@@ -135,7 +138,7 @@ export function setWirelessChannel(parameter: any) {
 //% block="set the line width to [WIDTH] pixels" blockType="command"
 //% WIDTH.shadow="range" WIDTH.params.min=1 WIDTH.params.max=128 WIDTH.defl=1
 export function setLineWidth(parameter: any, block: any) {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 定义一个范围限制的输入框。
@@ -149,7 +152,7 @@ export function setLineWidth(parameter: any, block: any) {
 //% block="not [Flag]" blockType="boolean"
 //% Flag.shadow="boolean"
 export function notTrue(parameter: any) {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 定义一个波尔类型的输入框。
@@ -161,7 +164,7 @@ export function notTrue(parameter: any) {
 //% Flag.shadow="boolean"
 //% BUTTON.shadow="dropdown" BUTTON.options="BTN" BUTTON.defl="BTN.A"
 export function buttonIsPressed(parameter: any, block: any) {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 定义一个下拉菜单。
@@ -175,7 +178,7 @@ export function buttonIsPressed(parameter: any, block: any) {
 //% STR.shadow="string" STR.defl=hello
 //% LINE.shadow="dropdownRound" LINE.options="LINE" LINE.defl="LINE.1"
 export function println(parameter: any, block: any) {
-&ensp;&ensp;&ensp;&ensp;...
+    ...
 }
 ```
 定义一个下拉菜单，并且可拖入图形块
