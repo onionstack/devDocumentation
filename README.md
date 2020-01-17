@@ -193,7 +193,7 @@ export function println(parameter: any, block: any) {
 | 命令  | 含义 | 可选参数 |
 | :--- | :---: | :--- |
 | color | 设置颜色 | 24位真彩色 |
-| iconWidth | icon图标宽度 | 默认30 |
+| iconWidth | icon图标宽度 | 默认40 |
 | iconHeight | icon图标高度 | 默认40 |
 | block | block描述 | 自定义 例如：xxx[A]xxx |
 | blockType | block类型 | hat:帽子形 command:方形 boolean:菱形 reporter:圆形 |
@@ -202,3 +202,11 @@ export function println(parameter: any, block: any) {
 | params.min | 用于范围输入类型，设置最小值 | 自定义 |
 | params.max | 用于范围输入类型，设置最大值 | 自定义 |
 | options | 指定下拉菜单内容 | 自定义 |
+
+## 生成代码
+'''
+addInclude(id, code, coverage)
+id: 标识符, 每一句代码具有唯一的id，
+code: 代码
+coverage: 是否覆盖
+'''
