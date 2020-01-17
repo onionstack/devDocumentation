@@ -245,6 +245,7 @@ args: 函数参数，遵从C++语言规范。
 coverage: 是否覆盖具有相同id的代码， 默认值为false
 ```
 **示例**
+```
 //% block="when press [BUTTON]" blockType="hat"
 //% BUTTON.shadow="range" BUTTON.params.min=0 BUTTON.params.max=15 WIDTH.defl=2
 export function myBlock(parameter: any, block: any) {
@@ -255,7 +256,7 @@ export function myBlock(parameter: any, block: any) {
     generator.addSetup("libraray.begin", `libraray.begin(${button});`);
     generator.addSetup(`libraray.callback`, `libraray.callback(functionName);`);
 }
-
+```
 
 
 
