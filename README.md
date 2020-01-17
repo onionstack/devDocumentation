@@ -273,9 +273,9 @@ MY_Libraray libraray;
 
 // 主程序开始
 void setup() {
-	libraray.begin(2);
-	libraray.callback(functionName);
-	libraray.start();
+    libraray.begin(2);
+    libraray.callback(functionName);
+    libraray.start();
 }
 void loop() {
 
