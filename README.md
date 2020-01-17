@@ -250,12 +250,12 @@ coverage: 是否覆盖具有相同id的代码， 默认值为false
 //% BUTTON.shadow="range" BUTTON.params.min=0 BUTTON.params.max=15 WIDTH.defl=2
 export function myBlock(parameter: any, block: any) {
     let button = parameter.BUTTON.code;
-    generator.addInclude('Mylibraray', '#include <Mylibraray.h>');
-    generator.addObject(`libraray`, `MY_Libraray`, `libraray;`);
-    generator.addEvent("functionName", "String", "functionName", "String message, int8_t error", true);
-    generator.addSetup("libraray.begin", `libraray.begin(${button});`);
-    generator.addSetup(`libraray.callback`, `libraray.callback(functionName);`);
-    generator.addCode('libraray.start();')
+    Generator.addInclude('Mylibraray', '#include <Mylibraray.h>');
+    Generator.addObject(`libraray`, `MY_Libraray`, `libraray;`);
+    Generator.addEvent("functionName", "String", "functionName", "String message, int8_t error", true);
+    Generator.addSetup("libraray.begin", `libraray.begin(${button});`);
+    Generator.addSetup(`libraray.callback`, `libraray.callback(functionName);`);
+    Generator.addCode('libraray.start();')
 }
 ```
 ```cpp
