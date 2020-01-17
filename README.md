@@ -204,9 +204,31 @@ export function println(parameter: any, block: any) {
 | options | 指定下拉菜单内容 | 自定义 |
 
 ## 注册生成代码
+* 在全局区添加include
 ```
 addInclude(id, code, coverage)
-id: 标识符, 每一句代码具有唯一的id，
+id: 标识符，
 code: 代码
-coverage: 是否覆盖
+coverage: 是否覆盖具有相同id的代码， 默认值为false
+```
+* 在全局区添加对象
+```
+addObject(id, type, code, coverage)
+id: 标识符
+type: class名称
+code: 对象名称
+coverage: 是否覆盖具有相同id的代码， 默认值为false
+
+```
+* 在setup中添加代码
+```
+addSetupMain(id, code, coverage)
+id: 标识符
+code: 代码
+coverage: 是否覆盖具有相同id的代码， 默认值为false
+```
+* 在setup或者loop中添加代码
+```
+addCode(code)
+code: 代码，类型为字符串的时候添加无返回值的代码，当类型为数组的时候添加有返回值的生成代码。
 ```
