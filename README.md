@@ -239,8 +239,23 @@ code: 代码，类型为字符串的时候添加无返回值的代码，当类�
 ```
 addEvent(id, type, nam, args, coverage)
 id: 标识符
-type: 返回值类型，遵从C++语言规范。
+type: 返回值类型，遵从C++语言规范。lock
 name: 函数名，遵从C++语言规范。
 args: 函数参数，遵从C++语言规范。
 coverage: 是否覆盖具有相同id的代码， 默认值为false
 ```
+**示例**
+//% block="when press [BUTTON]" blockType="hat"
+//% BUTTON.shadow="range" BUTTON.params.min=0 BUTTON.params.max=15 WIDTH.defl=2
+export function myBlock(parameter: any, block: any) {
+    let button = parameter.BUTTON.code;
+    generator.addInclude('Mylibraray', '#include <Mylibraray.h>');
+    generator.addObject(`libraray`, `MY_Libraray`, `libraray;`);
+    generator.addEvent("functionName", "String", "functionName", "String message, int8_t error", true);
+    generator.addSetup("libraray.begin", `libraray.begin(${button});`);
+    generator.addSetup(`libraray.callback`, `libraray.callback(functionName);`);
+}
+
+
+
+
