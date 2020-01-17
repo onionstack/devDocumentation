@@ -255,8 +255,36 @@ export function myBlock(parameter: any, block: any) {
     generator.addEvent("functionName", "String", "functionName", "String message, int8_t error", true);
     generator.addSetup("libraray.begin", `libraray.begin(${button});`);
     generator.addSetup(`libraray.callback`, `libraray.callback(functionName);`);
+    generator.addCode('libraray.start();')
 }
 ```
+```cpp
+/*!
+ * MindPlus
+ * microbit
+ *
+ */
+#include <Mylibraray.h>
+// 函数声明
+String functionName(String message, int8_t error);
+// 创建对象
+MY_Libraray libraray;
 
+
+// 主程序开始
+void setup() {
+	libraray.begin(2);
+	libraray.callback(functionName);
+	libraray.start();
+}
+void loop() {
+
+}
+
+// 事件回调函数
+String functionName(String message, int8_t error) {
+
+}
+```
 
 
