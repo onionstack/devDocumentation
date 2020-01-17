@@ -203,10 +203,10 @@ export function println(parameter: any, block: any) {
 | params.max | 用于范围输入类型，设置最大值 | 自定义 |
 | options | 指定下拉菜单内容 | 自定义 |
 
-## 生成代码
-'''
+## 注册生成代码
+```
 addInclude(id, code, coverage)
 id: 标识符, 每一句代码具有唯一的id，
 code: 代码
 coverage: 是否覆盖
-'''
+```
