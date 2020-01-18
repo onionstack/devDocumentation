@@ -203,17 +203,15 @@ export function println(parameter: any, block: any) {
 | params.max | 用于范围输入类型，设置最大值 | 自定义 |
 | options | 指定下拉菜单内容 | 自定义 |
 
-## 注册生成代码
-### Generator
-Generator是一个提供注册生成代码api的工具，它被内置在mindplus解释器中。
-* 
-```
+## Generator对象
+Generator是一个提供注册生成代码api的工具，它被内置在mindplus解释器中，可以通过```Generator.```来调用。
+```blocks
 addInclude(id, code, coverage)
+```
 id: 标识符，
 code: 代码
 coverage: 是否覆盖具有相同id的代码， 默认值为false
-```
-在全局区添加include
+在全局区添加include，例如：addInclude("Mylibraray", "Mylibraray.h", True) => "#include <Mylibraray.h>"
 
 * 在全局区添加对象
 ```
