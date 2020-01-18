@@ -300,7 +300,6 @@ String functionName(String message, int8_t error) {
 ## 运算符优先级
 | 命令  | 级别 | 含义 |
 | :--- | :---: | :--- |
-| ORDER_ATOMIC | 0 | 0 "" ... |
 | ORDER_UNARY_POSTFIX | 1 | expr++ expr-- () [] . |
 | ORDER_UNARY_PREFIX | 2 | -expr !expr ~expr ++expr --expr |
 | ORDER_MULTIPLICATIVE | 3 | * / % ~/ |
@@ -315,4 +314,3 @@ String functionName(String message, int8_t error) {
 | ORDER_LOGICAL_OR | 12 | || |
 | ORDER_CONDITIONAL | 13 | expr ? expr : expr |
 | ORDER_ASSIGNMENT | 14 | = *= /= ~/= %= += -= <<= >>= &= ^= |= |
-| ORDER_NONE | 99 | // (...) |
