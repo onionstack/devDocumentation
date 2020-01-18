@@ -298,4 +298,21 @@ String functionName(String message, int8_t error) {
 }
 ```
 ## 运算符优先级
-
+| 命令  | 级别 | 含义 |
+| :--- | :---: | :--- |
+| ORDER_ATOMIC | 0 | 0 "" ... |
+| ORDER_UNARY_POSTFIX | 1 | expr++ expr-- () [] . |
+| ORDER_UNARY_PREFIX | 2 | -expr !expr ~expr ++expr --expr |
+| ORDER_MULTIPLICATIVE | 3 | * / % ~/ |
+| ORDER_ADDITIVE | 4 | + - |
+| ORDER_SHIFT | 5 | << >> |
+| ORDER_RELATIONAL | 6 | >= > <= < |
+| ORDER_EQUALITY | 7 | == != === !== |
+| ORDER_BITWISE_AND | 8 | & |
+| ORDER_BITWISE_XOR | 9 | ^ |
+| ORDER_BITWISE_OR | 10 | | |
+| ORDER_LOGICAL_AND | 11 | && |
+| ORDER_LOGICAL_OR | 12 | || |
+| ORDER_CONDITIONAL | 13 | expr ? expr : expr |
+| ORDER_ASSIGNMENT | 14 | = *= /= ~/= %= += -= <<= >>= &= ^= |= |
+| ORDER_NONE | 99 | // (...) |
