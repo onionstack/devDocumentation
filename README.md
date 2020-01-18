@@ -207,16 +207,16 @@ export function println(parameter: any, block: any) {
 Generator是一个提供注册生成代码api的工具，它被内置在mindplus解释器中，可以通过```Generator.```来调用。
 ```blocks
 addInclude(id, code, coverage)
+```
+在全局区添加include，例如：```Generator.addInclude("Mylibraray", "Mylibraray.h", True) => "#include <Mylibraray.h>"```
 * id: 标识符，
 * code: 代码
 * coverage: 是否覆盖具有相同id的代码， 默认值为False
-```
-在全局区添加include，例如：Generator.addInclude("Mylibraray", "Mylibraray.h", True) => "#include <Mylibraray.h>"
 
 ```blocks
 addObject(id, type, code, coverage)
 ```
-在全局区添加对象，例如：Generator.addObject(`libraray`, `MY_Libraray`, `libraray;`);
+在全局区添加对象，例如：```Generator.addObject(`libraray`, `MY_Libraray`, `libraray;`);```
 * id: 标识符
 * type: class名称
 * code: 对象名称
@@ -245,7 +245,6 @@ addEvent(id, type, nam, args, coverage)
 * name: 函数名，遵从C++语言规范。
 * args: 函数参数，遵从C++语言规范。
 * coverage: 是否覆盖具有相同id的代码， 默认值为false
-
 
 **示例**
 注册生成代码：
