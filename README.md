@@ -241,7 +241,7 @@ addCode([code, level])
 ```
 在setup或者loop中添加代码，有返回值的代码添加（一般为圆形，菱形）。
 * code：需要注册的代码。
-* level：运算符优先级，为代码添加括号。建议默认设置为```Generator.ORDER_UNARY_POSTFIX```，例如：```Generator.addCode([libraray.read()", Generator.ORDER_UNARY_POSTFIX]);```
+* level：[运算符优先级](#运算符优先级)，为代码添加括号。建议默认设置为```Generator.ORDER_UNARY_POSTFIX```，例如：```Generator.addCode([libraray.read()", Generator.ORDER_UNARY_POSTFIX]);```
 
 ```blocks
 addEvent(id, type, nam, args, coverage)
@@ -297,5 +297,5 @@ String functionName(String message, int8_t error) {
 
 }
 ```
-
+## 运算符优先级
 
