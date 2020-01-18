@@ -247,7 +247,6 @@ addEvent(id, type, nam, args, coverage)
 * coverage: 是否覆盖具有相同id的代码， 默认值为false
 
 **示例**
-注册生成代码：
 ```javascript
 //% block="when press [BUTTON]" blockType="hat"
 //% BUTTON.shadow="range" BUTTON.params.min=0 BUTTON.params.max=15 WIDTH.defl=2
@@ -261,6 +260,7 @@ export function myBlock(parameter: any, block: any) {
     Generator.addCode('libraray.start();')
 }
 ```
+```parameter```是一个包含所有输入参数的对象，通过parameter.INPUTNAME.code来获取输入框内容，格式为```parameter.输入框名称.code```；```block```是一个包含图形块当前所有状态的对象，一般用于调试，可以通过console.log(block)来查看详细信息
 效果：
 ```cpp
 /*!
