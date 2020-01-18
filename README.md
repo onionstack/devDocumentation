@@ -204,14 +204,17 @@ export function println(parameter: any, block: any) {
 | options | 指定下拉菜单内容 | 自定义 |
 
 ## 注册生成代码
-* 在全局区添加include
+### Generator
+Generator是一个提供注册生成代码api的工具，它被内置在mindplus解释器中。
+* 
 ```
 addInclude(id, code, coverage)
 id: 标识符，
 code: 代码
 coverage: 是否覆盖具有相同id的代码， 默认值为false
-
 ```
+在全局区添加include
+
 * 在全局区添加对象
 ```
 addObject(id, type, code, coverage)
@@ -244,6 +247,7 @@ name: 函数名，遵从C++语言规范。
 args: 函数参数，遵从C++语言规范。
 coverage: 是否覆盖具有相同id的代码， 默认值为false
 ```
+
 **示例**
 注册生成代码：
 ```javascript
