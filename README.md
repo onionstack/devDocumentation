@@ -298,7 +298,6 @@ String functionName(String message, int8_t error) {
 }
 ```
 ## 运算符优先级
-数字越小级别越高
 | 命令  | 级别 | 含义 |
 | :--- | :---: | :--- |
 | ORDER_UNARY_POSTFIX | 1 | expr++ expr-- () [] . |
@@ -315,3 +314,4 @@ String functionName(String message, int8_t error) {
 | ORDER_LOGICAL_OR | 12 | \|\| |
 | ORDER_CONDITIONAL | 13 | expr ? expr : expr |
 | ORDER_ASSIGNMENT | 14 | = *= /= ~/= %= += -= <<= >>= &= ^= |= |
+* 数字越小级别越高
