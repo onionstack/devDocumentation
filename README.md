@@ -233,8 +233,15 @@ addSetup(id, code, coverage)
 ```blocks
 addCode(code)
 ```
-在setup或者loop中添加代码
-* code: 代码，类型为字符串的时候添加无返回值的代码，当类型为数组的时候添加有返回值的生成代码。
+在setup或者loop中添加代码，没有返回值的代码添加（一般为方形，帽子形）。
+* code: 代码。
+
+```blocks
+addCode([code, level])
+```
+在setup或者loop中添加代码，有返回值的代码添加（一般为圆形，菱形）。
+* code：需要注册的代码。
+* level：运算符优先级，为代码添加括号。建议默认设置为```Generator.ORDER_UNARY_POSTFIX```，例如：```Generator.addCode([libraray.read()", Generator.ORDER_UNARY_POSTFIX]);```
 
 ```blocks
 addEvent(id, type, nam, args, coverage)
