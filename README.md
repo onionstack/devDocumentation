@@ -208,43 +208,44 @@ Generator是一个提供注册生成代码api的工具，它被内置在mindplus
 ```blocks
 addInclude(id, code, coverage)
 ```
-id: 标识符，
-code: 代码
-coverage: 是否覆盖具有相同id的代码， 默认值为false
-在全局区添加include，例如：addInclude("Mylibraray", "Mylibraray.h", True) => "#include <Mylibraray.h>"
+在全局区添加include，例如：Generator.addInclude("Mylibraray", "Mylibraray.h", True) => "#include <Mylibraray.h>"
+* id: 标识符，
+* code: 代码
+* coverage: 是否覆盖具有相同id的代码， 默认值为False
 
-* 在全局区添加对象
-```
+```blocks
 addObject(id, type, code, coverage)
-id: 标识符
-type: class名称
-code: 对象名称
-coverage: 是否覆盖具有相同id的代码， 默认值为false
+```
+在全局区添加对象，例如：Generator.addObject(`libraray`, `MY_Libraray`, `libraray;`);
+* id: 标识符
+* type: class名称
+* code: 对象名称
+* coverage: 是否覆盖具有相同id的代码， 默认值为false
 
+```blocks
+addSetup(id, code, coverage)
 ```
-* 在setup中添加代码
-```
-addSetupMain(id, code, coverage)
-id: 标识符
-code: 代码
-coverage: 是否覆盖具有相同id的代码， 默认值为false
-```
+在setup中添加代码。
+* id: 标识符
+* code: 代码
+* coverage: 是否覆盖具有相同id的代码， 默认值为false
 
-* 在setup或者loop中添加代码
-```
+```blocks
 addCode(code)
-code: 代码，类型为字符串的时候添加无返回值的代码，当类型为数组的时候添加有返回值的生成代码。
 ```
+在setup或者loop中添加代码
+* code: 代码，类型为字符串的时候添加无返回值的代码，当类型为数组的时候添加有返回值的生成代码。
 
-* 全局区定义一个回调函数
-```
+```blocks
 addEvent(id, type, nam, args, coverage)
-id: 标识符
-type: 返回值类型，遵从C++语言规范。lock
-name: 函数名，遵从C++语言规范。
-args: 函数参数，遵从C++语言规范。
-coverage: 是否覆盖具有相同id的代码， 默认值为false
 ```
+全局区定义一个回调函数
+* id: 标识符
+* type: 返回值类型，遵从C++语言规范。lock
+* name: 函数名，遵从C++语言规范。
+* args: 函数参数，遵从C++语言规范。
+* coverage: 是否覆盖具有相同id的代码， 默认值为false
+
 
 **示例**
 注册生成代码：
