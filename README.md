@@ -260,7 +260,7 @@ export function myBlock(parameter: any, block: any) {
     Generator.addCode('libraray.start();')
 }
 ```
-```parameter```是一个包含所有输入参数的对象，通过parameter.INPUTNAME.code来获取输入框内容，格式为```parameter.输入框名称.code```；```block```是一个包含图形块当前所有状态的对象，一般用于调试，可以通过console.log(block)来查看详细信息
+```parameter```是一个包含所有输入参数的对象，通过```parameter.INPUTNAME.code```来获取输入框内容，格式为```parameter.输入框名称.code```；```block```是一个包含图形块当前所有状态的对象，一般用于调试，可以通过```console.log(block)```来查看详细信息。这两个参数如果不需要可以不写。
 效果：
 ```cpp
 /*!
