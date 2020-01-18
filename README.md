@@ -309,8 +309,8 @@ String functionName(String message, int8_t error) {
 | ORDER_EQUALITY | 7 | == != === !== |
 | ORDER_BITWISE_AND | 8 | & |
 | ORDER_BITWISE_XOR | 9 | ^ |
-| ORDER_BITWISE_OR | 10 | | |
+| ORDER_BITWISE_OR | 10 | \| |
 | ORDER_LOGICAL_AND | 11 | && |
-| ORDER_LOGICAL_OR | 12 | || |
+| ORDER_LOGICAL_OR | 12 | \|\| |
 | ORDER_CONDITIONAL | 13 | expr ? expr : expr |
 | ORDER_ASSIGNMENT | 14 | = *= /= ~/= %= += -= <<= >>= &= ^= |= |
