@@ -299,7 +299,7 @@ String functionName(String message, int8_t error) {
 }
 ```
 ## 运算符优先级
-| 命令  | 级别 | 含义 |
+| 命令  | 级别 | 适用范围 |
 | :--- | :---: | :--- |
 | ORDER_UNARY_POSTFIX | 1 | expr++ expr-- () [] . |
 | ORDER_UNARY_PREFIX | 2 | -expr !expr ~expr ++expr --expr |
