@@ -316,3 +316,19 @@ String functionName(String message, int8_t error) {
 | ORDER_CONDITIONAL | 13 | expr ? expr : expr |
 | ORDER_ASSIGNMENT | 14 | = *= /= ~/= %= += -= <<= >>= &= ^= |= |
 * 数字越小级别越高
+
+## 主控列表
+| 主控  | 类型 | 名称 |
+| :--- | :---: | :--- |
+| UNO | 主控  | arduino |
+| Nano | 主控 | arduinonano |
+| Leonardo | 主控 | leonardo |
+| Micro:Bit | 主控 | microbit |
+| 掌控 | 主控 | esp32 |
+| Mega2560 | 主控 | mega2560 |
+| Vortex | 套件 | vortex |
+| Romeo | 套件 | romeo |
+| UNOR3 | 套件 | arduinounor3 |
+| Max:Bot | 套件 | maxbot |
+| 麦昆 | 套件 | maqueen |
+| Max | 套件 |  max |
