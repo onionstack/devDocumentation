@@ -332,3 +332,6 @@ String functionName(String message, int8_t error) {
 | Max:Bot | 套件 | maxbot |
 | 麦昆 | 套件 | maqueen |
 | Max | 套件 |  max |
+
+## 描述参考
+| 类型 | color | iconWidth | iconHeight | block | blockType | shadow | defl | params.min | params.max | options | block |
