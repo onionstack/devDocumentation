@@ -334,5 +334,6 @@ String functionName(String message, int8_t error) {
 | Max | 套件 |  max |
 
 ## 描述参考
+| 类型 | color | iconWidth |
 | 类型 | color | iconWidth | iconHeight | block | blockType | shadow | defl | params.min | params.max | options | block |
 | 类型 | color | iconWidth | iconHeight | block | blockType | shadow | defl | params.min | params.max | options | block |
