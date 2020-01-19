@@ -360,126 +360,159 @@ String functionName(String message, int8_t error) {
 <td class='x24'>普通下拉菜单</td>
 <td class='x24'>可拖入下拉菜单</td>
  </tr>
- <tr height='23' style='mso-height-source:userset;height:17.25pt' id='r2'>
-<td height='21' class='x27' style='height:15.75pt;'>color</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r2'>
+<td height='25' class='x27' style='height:18.75pt;'>color</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='23' style='mso-height-source:userset;height:17.25pt' id='r3'>
-<td height='21' class='x28' style='height:15.75pt;'>iconWidth</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r3'>
+<td height='25' class='x28' style='height:18.75pt;'>iconWidth</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r4'>
-<td height='17' class='x29' style='height:12.75pt;'>iconHeight</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r4'>
+<td height='25' class='x29' style='height:18.75pt;'>iconHeight</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r5'>
-<td height='17' class='x29' style='height:12.75pt;'>block</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r5'>
+<td height='25' class='x29' style='height:18.75pt;'>block</td>
+<td class='x31'>‐</td>
+<td class='x31'>●</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r6'>
-<td height='17' class='x29' style='height:12.75pt;'>blockType </td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r6'>
+<td height='25' class='x29' style='height:18.75pt;'>blockType </td>
+<td class='x31'>‐</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r7'>
-<td height='17' class='x29' style='height:12.75pt;'>shadow</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r7'>
+<td height='25' class='x29' style='height:18.75pt;'>shadow</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>●</td>
+<td class='x31'>●</td>
+<td class='x31'>●</td>
+<td class='x31'>●</td>
+<td class='x31'>●</td>
+<td class='x31'>●</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r8'>
-<td height='17' class='x29' style='height:12.75pt;'>defl</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r8'>
+<td height='25' class='x29' style='height:18.75pt;'>defl</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>○</td>
+<td class='x31'>○</td>
+<td class='x31'>○</td>
+<td class='x31'>○</td>
+<td class='x31'>○</td>
+<td class='x31'>○</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r9'>
-<td height='17' class='x29' style='height:12.75pt;'>params.min</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r9'>
+<td height='25' class='x29' style='height:18.75pt;'>params.min</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r10'>
-<td height='17' class='x29' style='height:12.75pt;'>params.max</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r10'>
+<td height='25' class='x29' style='height:18.75pt;'>params.max</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r11'>
-<td height='17' class='x29' style='height:12.75pt;'>options</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r11'>
+<td height='25' class='x29' style='height:18.75pt;'>options</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>●</td>
+<td class='x31'>●</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r12'>
-<td height='17' class='x29' style='height:12.75pt;'>block</td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
-<td class='x24'></td>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r12'>
+<td height='25' class='x29' style='height:18.75pt;'>block</td>
+<td class='x31'>‐</td>
+<td class='x31'>○</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+<td class='x31'>‐</td>
+ </tr>
+ <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r13'>
+<td height='26' class='x32' style='height:19.5pt;'></td>
+<td class='x32'></td>
+<td class='x32'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+ </tr>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r14'>
+<td height='19' class='x30' style='height:14.25pt;'></td>
+<td class='x25'></td>
+<td class='x25'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+ </tr>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r15'>
+<td height='19' class='x30' style='height:14.25pt;'></td>
+<td class='x25'></td>
+<td class='x25'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
+<td class='x22'></td>
  </tr>
 <![if supportMisalignedColumns]>
  <tr height='0' style='display:none'>
