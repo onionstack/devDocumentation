@@ -481,50 +481,5 @@ String functionName(String message, int8_t error) {
 <td class='x31'>‐</td>
 <td class='x31'>‐</td>
  </tr>
- <tr height='27' style='mso-height-source:userset;height:20.25pt' id='r13'>
-<td height='26' class='x32' style='height:19.5pt;'></td>
-<td class='x32'></td>
-<td class='x32'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
- </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r14'>
-<td height='19' class='x30' style='height:14.25pt;'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
- </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r15'>
-<td height='19' class='x30' style='height:14.25pt;'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
-<td class='x22'></td>
- </tr>
-<![if supportMisalignedColumns]>
- <tr height='0' style='display:none'>
-  <td width='87' style='width:65.25pt'></td>
-  <td width='66' style='width:49.5pt'></td>
-  <td width='57' style='width:42.75pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='67' style='width:50.25pt'></td>
-  <td width='100' style='width:75pt'></td>
-  <td width='107' style='width:80.25pt'></td>
- </tr>
  <![endif]>
 </table>
