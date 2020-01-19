@@ -334,168 +334,164 @@ String functionName(String message, int8_t error) {
 | Max | 套件 |  max |
 
 ## 描述参考
-| 类型 | color | iconWidth | iconHeight | block | blockType | shadow | defl | params.min | params.max | options | block |
-| :---: | :---: | :---:     |:---:       |:---:  |:---:      |:---:   |:---: |:---:       |:---:       |:---:    |:---:  |
-| 命名空间 |       |           |            |       |           |        |      |            |            |         |       |
-| 图形块 |       |           |            |       |           |        |      |            |            |         |       |
-| df |       |           |            |       |           |        |      |            |            |         |       |
-| df |       |           |            |       |           |        |      |            |            |         |       |
-| df |       |           |            |       |           |        |      |            |            |         |       |
-| df |       |           |            |       |           |        |      |            |            |         |       |
-
 </head>
-<body link='blue' vlink='purple' class='x21'>
+<body link='blue' vlink='purple' class='x22'>
 
-<table border='0' cellpadding='0' cellspacing='0' width='1039' style='border-collapse: 
- collapse;table-layout:fixed;width:779pt'>
- <col class='x21' width='72' style='mso-width-source:userset;width:54pt'>
- <col class='x21' width='128' style='mso-width-source:userset;width:96pt'>
- <col class='x21' width='72' span='7' style='mso-width-source:userset;width:54pt'>
- <col class='x21' width='102' style='mso-width-source:userset;width:76.5pt'>
- <col class='x21' width='89' style='mso-width-source:userset;width:66.75pt'>
- <col width='72' span='2' style='width:54pt'>
- <tr height='23' style='mso-height-source:userset;height:17.25pt' id='r0'>
-<td colspan='2' height='21' class='x22' width='200' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:15.75pt;'>类型</td>
-<td class='x23' width='72' style='width:54pt;'>color</td>
-<td class='x24' width='72' style='width:54pt;'>iconWidth</td>
-<td class='x25' width='72' style='width:54pt;'>iconHeight</td>
-<td class='x25' width='72' style='width:54pt;'>block</td>
-<td class='x25' width='72' style='width:54pt;'>blockType </td>
-<td class='x25' width='72' style='width:54pt;'>shadow</td>
-<td class='x25' width='72' style='width:54pt;'>defl</td>
-<td class='x25' width='102' style='width:76.5pt;'>params.min</td>
-<td class='x25' width='89' style='width:66.75pt;'>params.max</td>
-<td class='x25' width='72' style='width:54pt;'>options</td>
-<td class='x25' width='72' style='width:54pt;'>block</td>
+<table border='0' cellpadding='0' cellspacing='0' width='700' style='border-collapse: 
+ collapse;table-layout:fixed;width:525pt'>
+ <col class='x21' width='87' style='mso-width-source:userset;width:65.25pt'>
+ <col class='x22' width='66' style='mso-width-source:userset;width:49.5pt'>
+ <col class='x22' width='57' style='mso-width-source:userset;width:42.75pt'>
+ <col class='x22' width='72' span='3' style='mso-width-source:userset;width:54pt'>
+ <col class='x22' width='67' style='mso-width-source:userset;width:50.25pt'>
+ <col class='x22' width='100' style='mso-width-source:userset;width:75pt'>
+ <col class='x22' width='107' style='mso-width-source:userset;width:80.25pt'>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r0'>
+<td rowspan='2' height='36' class='x26' width='87' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:27pt;width:65.25pt;'>参数</td>
+<td rowspan='2' height='36' class='x23' width='66' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:27pt;width:49.5pt;'>命名空间</td>
+<td rowspan='2' height='36' class='x23' width='57' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:27pt;width:42.75pt;'>图形块</td>
+<td colspan='6' class='x23' width='490' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;'>输入框</td>
  </tr>
  <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r1'>
-<td colspan='2' height='17' class='x22' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:12.75pt;'>命名空间</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+<td class='x24'>文本类型</td>
+<td class='x24'>数字类型</td>
+<td class='x24'>范围类型</td>
+<td class='x24'>布尔类型</td>
+<td class='x24'>普通下拉菜单</td>
+<td class='x24'>可拖入下拉菜单</td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r2'>
-<td colspan='2' height='17' class='x22' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:12.75pt;'>图形块</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+ <tr height='23' style='mso-height-source:userset;height:17.25pt' id='r2'>
+<td height='21' class='x27' style='height:15.75pt;'>color</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
- <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r3'>
-<td rowspan='6' height='112' class='x22' style='border-right:1px solid windowtext;border-bottom:1px solid windowtext;height:84pt;'>输入框</td>
-<td class='x25'>文本类型</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+ <tr height='23' style='mso-height-source:userset;height:17.25pt' id='r3'>
+<td height='21' class='x28' style='height:15.75pt;'>iconWidth</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
  <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r4'>
-<td class='x25'>数字类型</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+<td height='17' class='x29' style='height:12.75pt;'>iconHeight</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
  <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r5'>
-<td class='x25'>范围类型</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+<td height='17' class='x29' style='height:12.75pt;'>block</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
  <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r6'>
-<td class='x25'>布尔类型</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+<td height='17' class='x29' style='height:12.75pt;'>blockType </td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
  <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r7'>
-<td class='x25'>普通下拉菜单</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+<td height='17' class='x29' style='height:12.75pt;'>shadow</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
  <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r8'>
-<td class='x25'>可拖入下拉菜单</td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
-<td class='x25'></td>
+<td height='17' class='x29' style='height:12.75pt;'>defl</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+ </tr>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r9'>
+<td height='17' class='x29' style='height:12.75pt;'>params.min</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+ </tr>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r10'>
+<td height='17' class='x29' style='height:12.75pt;'>params.max</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+ </tr>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r11'>
+<td height='17' class='x29' style='height:12.75pt;'>options</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+ </tr>
+ <tr height='19' style='mso-height-source:userset;height:14.25pt' id='r12'>
+<td height='17' class='x29' style='height:12.75pt;'>block</td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
+<td class='x24'></td>
  </tr>
 <![if supportMisalignedColumns]>
  <tr height='0' style='display:none'>
-  <td width='72' style='width:54pt'></td>
-  <td width='128' style='width:96pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='72' style='width:54pt'></td>
+  <td width='87' style='width:65.25pt'></td>
+  <td width='66' style='width:49.5pt'></td>
+  <td width='57' style='width:42.75pt'></td>
   <td width='72' style='width:54pt'></td>
   <td width='72' style='width:54pt'></td>
   <td width='72' style='width:54pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='102' style='width:76.5pt'></td>
-  <td width='89' style='width:66.75pt'></td>
-  <td width='72' style='width:54pt'></td>
-  <td width='72' style='width:54pt'></td>
+  <td width='67' style='width:50.25pt'></td>
+  <td width='100' style='width:75pt'></td>
+  <td width='107' style='width:80.25pt'></td>
  </tr>
  <![endif]>
 </table>
