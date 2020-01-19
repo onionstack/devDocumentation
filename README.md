@@ -334,6 +334,7 @@ String functionName(String message, int8_t error) {
 | Max | 套件 |  max |
 
 ## 描述参考
+●：必选 ○：可选 -：不可选
 </head>
 <body link='blue' vlink='purple' class='x22'>
 
