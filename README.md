@@ -318,7 +318,7 @@ String functionName(String message, int8_t error) {
 * 数字越小级别越高
 
 ## 主控列表
-| 主控  | 类型 | 名称 |
+| 主控 | 类型 | 名称 |
 | :--- | :---: | :--- |
 | UNO | 主控  | arduino |
 | Nano | 主控 | arduinonano |
@@ -334,4 +334,5 @@ String functionName(String message, int8_t error) {
 | Max | 套件 |  max |
 
 ## 描述参考
+| 类型 | color | iconWidth | iconHeight | block | blockType | shadow | defl | params.min | params.max | options | block |
 | 类型 | color | iconWidth | iconHeight | block | blockType | shadow | defl | params.min | params.max | options | block |
